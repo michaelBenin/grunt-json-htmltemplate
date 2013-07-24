@@ -1,8 +1,8 @@
 'use strict';
 var grunt = require('grunt');
 
-exports.labjs_template = {
-    get_js: function (test) {
+exports.json_html_template = {
+    template: function (test) {
         test.expect(1);
 
         var actual = '';

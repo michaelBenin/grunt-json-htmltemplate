@@ -1,7 +1,7 @@
 {
   "name": "grunt-json-htmltemplate",
   "description": "Creates a json object out of html templates",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/michaelbenin/grunt-json-htmltemplate",
   "author": "Michael Benin",
   "repository": {
@@ -44,7 +44,7 @@
     "loader"
   ],
   "readmeFilename": "README.md",
-  "gitHead": "84e98af38954498ba41e10d7790787bbea71d726",
+  "gitHead": "",
   "directories": {
     "doc": "docs",
     "test": "test"

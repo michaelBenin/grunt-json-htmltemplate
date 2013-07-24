@@ -26,17 +26,20 @@ _Run this task with the `grunt json_html_template` command._
 
 grunt.initConfig({
 
-  js_template_html: {
+  json_html_template: {
               src: {
+              // the template to be rendered
                   src: 'src/js/template/src/templates.json',
+              // TODO: Replace with grunt files, currently accepts a folder glob
                   templates: 'src/templates/compress/*',
+              // The destination file that is rendered
                   dest: 'src/js/template/built/templates.json'
               }
           }
 
 });
 
-grunt.registerTask('default', ['js_template_html']);
+grunt.registerTask('default', ['json_html_template']);
 
 // reference the templates name in grunt.jsTemplate
 
