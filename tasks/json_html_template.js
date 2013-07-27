@@ -9,7 +9,7 @@
 module.exports = function (grunt) {
     "use strict";
 
-    var stringEscape = require('string-escape');
+    var stringEscape = require('jsesc');
 
     grunt.registerMultiTask('json_html_template', 'create an object of all templates', function () {
         var src = this.data.src,
