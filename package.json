@@ -25,7 +25,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-      "string-escape":"~0.2.2"
+      "jsesc":"~0.3.0"
   },
   "devDependencies": {
     "grunt-contrib-internal": "~0.4.3",
